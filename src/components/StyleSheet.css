@@ -29,8 +29,7 @@ color: rgb(131, 89, 160);
   }
 
 
-    /* Home---------Home  */
-
+  
   /* image color change */
   .imghome{
     filter: blur(2px);
@@ -44,19 +43,30 @@ color: rgb(131, 89, 160);
   .imgalign{
     align-content: normal;
   }
-
+  
+  
+  
+  /* Home--- Accordian movement------Home  */
   .col {
     flex: 1 0;
-    /* transform:translateZ(0) ; */
-    cursor: pointer;
-    transition: .5s ease-out;
+    transform:translateZ(0) ;
+    transition: 2s ease-out;
 }
 
 
   .col:hover{
-    width: 40%;
+    flex: 8 0;
   }
 
   .horizontalplane{
     height: 75vh;
   }
+
+
+    /* Home--- Background images------Home  */
+
+/* 
+    .accone {
+      background-image: url("paper.gif");
+      background-color: #cccccc;
+     } */
