@@ -2,8 +2,16 @@ import React from "react";
 // import { Image } from "react-bootstrap";
 
 function Home() {
-  const bgOne = "https://images.dog.ceo/breeds/brabancon/n02112706_1561.jpg";
-  const bgTwo = "https://images.dog.ceo/breeds/mastiff-english/1.jpg";
+  const bgZero =
+    "https://c4.wallpaperflare.com/wallpaper/677/667/795/united-arab-emirates-dubai-reflection-on-midnight-4k-ultra-hd-desktop-wallpapers-for-computers-laptop-tablet-and-mobile-phones-3840%C3%972400-wallpaper-preview.jpg";
+  const bgOne =
+    "https://c4.wallpaperflare.com/wallpaper/798/616/951/macos-sierra-wallpaper-preview.jpg";
+  const bgTwo =
+    "https://c4.wallpaperflare.com/wallpaper/586/603/742/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg";
+  const bgThree =
+    "https://c4.wallpaperflare.com/wallpaper/515/543/652/autumn-colors-in-nature-herbst-park-new-york-city-usa-4k-ultra-hd-wallpaper-for-desktop-laptop-tablet-mobile-phones-and-tv-3840%C3%972400-wallpaper-preview.jpg";
+  const bgFour =
+    "https://c0.wallpaperflare.com/preview/789/637/166/backlit-chiemsee-dawn-desktop-backgrounds.jpg";
 
   return (
     <>
@@ -11,10 +19,7 @@ function Home() {
         <div
           className="col bg-success horizontalplane"
           style={{
-            backgroundImage:
-              "url(" +
-              "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" +
-              ")",
+            backgroundImage: `url(${bgZero})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
@@ -44,10 +49,26 @@ function Home() {
         >
           <div>hello world </div>
         </div>
-        <div className="bg-danger col">
+        <div
+          className="bg-danger col"
+          style={{
+            backgroundImage: `url(${bgThree})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
           <div>hello world </div>
         </div>
-        <div className="bg-warning col">
+        <div
+          className="bg-warning col"
+          style={{
+            backgroundImage: `url(${bgFour})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
           <div>hello world </div>
         </div>
       </div>

@@ -50,7 +50,7 @@ color: rgb(131, 89, 160);
   .col {
     flex: 1 0;
     transform:translateZ(0) ;
-    transition: 2s ease-out;
+    transition: 1.5s ease-out;
 }
 
 
