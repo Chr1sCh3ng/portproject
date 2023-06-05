@@ -17,7 +17,7 @@ function Home() {
     <>
       <div className="row">
         <div
-          className="col bg-success horizontalplane"
+          className="coll bg-success horizontalplane"
           style={{
             backgroundImage: `url(${bgZero})`,
             backgroundPosition: "center",
@@ -28,7 +28,7 @@ function Home() {
           <div>hello world </div>
         </div>
         <div
-          className="bg-primary col"
+          className="bg-primary coll"
           style={{
             backgroundImage: `url(${bgOne})`,
             backgroundPosition: "center",
@@ -39,7 +39,7 @@ function Home() {
           <div>hello world </div>
         </div>
         <div
-          className="bg-info col"
+          className="bg-info coll"
           style={{
             backgroundImage: `url(${bgTwo})`,
             backgroundPosition: "center",
@@ -50,7 +50,7 @@ function Home() {
           <div>hello world </div>
         </div>
         <div
-          className="bg-danger col"
+          className="bg-danger coll"
           style={{
             backgroundImage: `url(${bgThree})`,
             backgroundPosition: "center",
@@ -61,7 +61,7 @@ function Home() {
           <div>hello world </div>
         </div>
         <div
-          className="bg-warning col"
+          className="bg-warning coll"
           style={{
             backgroundImage: `url(${bgFour})`,
             backgroundPosition: "center",

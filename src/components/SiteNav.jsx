@@ -61,7 +61,7 @@ function SiteNav() {
                   <a className="dropdown-item" href="/qrcode">
                     QRModal
                   </a>
-                  <a className="dropdown-item" href="/visual">
+                  <a className="dropdown-item" href="/VisualRep">
                     Visual
                   </a>
                 </div>

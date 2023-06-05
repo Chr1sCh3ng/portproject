@@ -31,7 +31,7 @@ function App() {
             ></Route>
             <Route path="/qrcode" element={<QRModal />}></Route>
 
-            <Route path="/visual" element={<Visual />}></Route>
+            <Route path="/visualrep" element={<Visual />}></Route>
           </Routes>
         </div>
         <Footer></Footer>

@@ -17,6 +17,13 @@ color: rgb(131, 89, 160);
     background-clip: text;
 }
 
+.gradient-text-right {
+  background-color: #f3be78;
+  background-image:radial-gradient( #c74bac,#7895f3);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .shortCardx {
     -ms-flex-align: center;
     /* width: 90rem; */
@@ -47,14 +54,14 @@ color: rgb(131, 89, 160);
   
   
   /* Home--- Accordian movement------Home  */
-  .col {
+  .coll {
     flex: 1 0;
     transform:translateZ(0) ;
     transition: 1.5s ease-out;
 }
 
 
-  .col:hover{
+  .coll:hover{
     flex: 8 0;
   }
 
@@ -63,10 +70,48 @@ color: rgb(131, 89, 160);
   }
 
 
-    /* Home--- Background images------Home  */
+/* dropdown mitts and dice  */
 
-/* 
-    .accone {
-      background-image: url("paper.gif");
-      background-color: #cccccc;
-     } */
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.ddbtn {
+  font-weight: bold;
+  font-size: large;
+  background-color: black;
+  border-radius: 0.375rem ;
+}
+
+
+/* visual background */
+.bg-patone{
+  background-color: #ccd2ff;
+  opacity: 1;
+  background-image: linear-gradient(to right, #ffffff, #ffffff 12px, #ccd2ff 12px, #ccd2ff );
+  background-size: 24px 100%;
+
+}
+
+.bg-pattwo{
+  background-color: #ffeaff;
+  opacity: 1;
+  background-image:  linear-gradient(30deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(150deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(30deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(150deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(60deg, #ffffff77 25%, transparent 25.5%, transparent 75%, #ffffff77 75%, #ffffff77), linear-gradient(60deg, #ffffff77 25%, transparent 25.5%, transparent 75%, #ffffff77 75%, #ffffff77);
+  background-size: 48px 84px;
+  background-position: 0 0, 0 0, 24px 42px, 24px 42px, 0 0, 24px 42px;
+}
+
+.bg-patthree{
+  background-color: #d5ffdc;
+  opacity: 1;
+  background-image: linear-gradient(0deg, #d5ffdc 50%, #ffffff 50%);
+  background-size: 24px 24px;
+}
+
+.testingtext{
+  font-weight: bold;
+  outline-color: black;
+  color: black;
+}
