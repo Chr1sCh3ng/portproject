@@ -19,8 +19,6 @@ function App() {
       <div className="bg-dark min-vh-100">
         <div>
           <SiteNav />
-          {/* <span py-10> .</span> */}
-          {/* <h1 className=".textgradient"> color test</h1> */}
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/aboutme" element={<AboutMe />}></Route>

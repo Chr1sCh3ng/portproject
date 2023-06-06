@@ -173,15 +173,15 @@ function VisualRep() {
                     <ModalBody>
                       {" "}
                       I like to give the cards/gifts titles and descriptions,
-                      like "Bottoms up" -finish your drink
-                      <br></br>
+                      like "Bottoms up" - finish your drink.
+                      <br />
                       "Two's company" - Pick a friend to take shots with.
                       <br />
                       And the classic...
                       <br />
-                      "Iced" - Chug smirnoff ice on one knee.
+                      "Iced" - Chug Smirnoff Ice on one knee.
                       <br />
-                      note: all drinking must be finished before continue
+                      Note: All drinking must be finished before continuing
                       unwrapping.
                     </ModalBody>
                     <ModalFooter className="bg-patthree">
@@ -201,8 +201,13 @@ function VisualRep() {
                         Nested Modal 6 title
                       </ModalHeader>
                       <ModalBody>
-                        8888888888888888888 insert link Want this for your next
-                        Christmas party? Check out this starter
+                        Want this for your next Christmas party? Check out this{" "}
+                        <a
+                          target="blank"
+                          href="https://www.amazon.com/Cuyacili-Surprise-Weddings-Anniversaries-Packaging/dp/B0BFDMS73S/ref=sr_1_5?keywords=Cuyacili&amp;qid=1686017373&amp;sr=8-5&_encoding=UTF8&tag=chrischeng-20&linkCode=ur2&linkId=3e5f253517c954b5a5a1453507d86da4&camp=1789&creative=9325"
+                        >
+                          great starter
+                        </a>
                       </ModalBody>
                       <ModalFooter className="bg-patone">
                         <Button color="success" onClick={toggleNestedSeven}>
@@ -223,9 +228,9 @@ function VisualRep() {
                         <ModalBody>
                           Plan ahead!
                           <br />
-                          Buying wrapping paper in Januery will be the cheapest.
+                          Buying wrapping paper in January will be the cheapest.
                           <br />
-                          Don't want to spend money on paper? Use newspaper
+                          Don't want to spend money on paper? Use newspaper.
                           <br />
                           Break down and save your Amazon boxes.
                         </ModalBody>
@@ -246,24 +251,23 @@ function VisualRep() {
                             Nested Modal 8 title
                           </ModalHeader>
                           <ModalBody>
-                            {" "}
-                            The game typically last about 15 minutes.
+                            The game typically lasts about 15 minutes.
                             <br />
-                            Here are ways to increase difficulty
+                            Here are ways to increase the difficulty:
                             <br />
-                            Packing tape, wrap the whole thing with packing
+                            - Packing tape: Wrap the whole thing with packing
                             tape.
                             <br />
-                            Shrink wrap or plastic wrap. I love to use more
-                            extravgent wrapping paper under shrink wrap.
+                            - Shrink wrap or plastic wrap: I love to use more
+                            extravagant wrapping paper under the shrink wrap.
                             <br />
-                            Plastic tote with locks, tape the key and similar
-                            keys all over the box. (make sure you pick up the
-                            keys after wards for next year)
+                            - Plastic tote with locks: Tape the key and similar
+                            keys all over the box (make sure you pick up the
+                            keys afterward for next year).
                             <br />
-                            Playing with Childern? have someone dress up as the
-                            "Grinch" and when it becomes the "Grinch" turn they
-                            will tape up the boxes back up.
+                            Playing with children? Have someone dress up as the
+                            "Grinch," and when it becomes the "Grinch's" turn,
+                            they will tape up the boxes back up.
                           </ModalBody>
                           <ModalFooter className="bg-patthree">
                             <Button color="success" onClick={toggleNestedNine}>
@@ -284,10 +288,17 @@ function VisualRep() {
                             <ModalBody>
                               This is the last box, and the last box your guest
                               will open is the one you start to wrap first.
-                              insert link, please use my amazon affiliate link
-                              when you purchase your christmas supplies for the
-                              game. Or save it and use it everytime you make an
-                              amazon purchase to help me out. Thank you!
+                              <br />
+                              Please use my{" "}
+                              <a
+                                target="blank"
+                                href="https://www.amazon.com/gp/search?ie=UTF8&tag=chrischeng-20&linkCode=ur2&linkId=dd197c24f3b5b88123f8c70a84205f43&camp=1789&creative=9325&index=arts-crafts&keywords=packing tape"
+                              >
+                                Amazon affiliate{" "}
+                              </a>{" "}
+                              link when you purchase your Christmas supplies for
+                              the game. Or save it and use it every time you
+                              make an Amazon purchase to help me out. Thank you!
                             </ModalBody>
                             <ModalFooter className="bg-patone">
                               <Button color="secondary" onClick={toggleAll}>

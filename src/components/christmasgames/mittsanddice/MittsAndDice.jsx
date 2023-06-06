@@ -1,6 +1,5 @@
 import React from "react";
 import VisualRep from "./VirtualRep";
-// import VisualRep from "./VirtualRep";
 
 const InstructionComponent = () => {
   return (
@@ -58,7 +57,7 @@ const InstructionComponent = () => {
             <div class="collapse multi-collapse" id="multiCollapseExample2">
               <div
                 class="card card-body bg-dark reverseshadow
-              "
+                "
               >
                 <p className="card-text text-white">
                   <h3>How to play</h3>

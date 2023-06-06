@@ -56,7 +56,7 @@ color: rgb(131, 89, 160);
   /* Home--- Accordian movement------Home  */
   .coll {
     flex: 1 0;
-    transform:translateZ(0) ;
+    /* transform:translateZ(0) ; */
     transition: 1.5s ease-out;
 }
 
@@ -92,7 +92,6 @@ color: rgb(131, 89, 160);
   opacity: 1;
   background-image: linear-gradient(to right, #ffffff, #ffffff 12px, #ccd2ff 12px, #ccd2ff );
   background-size: 24px 100%;
-
 }
 
 .bg-pattwo{
@@ -104,7 +103,6 @@ color: rgb(131, 89, 160);
 }
 
 .bg-patthree{
-  background-color: #d5ffdc;
   opacity: 1;
   background-image: linear-gradient(0deg, #d5ffdc 50%, #ffffff 50%);
   background-size: 24px 24px;
@@ -115,3 +113,4 @@ color: rgb(131, 89, 160);
   outline-color: black;
   color: black;
 }
+
