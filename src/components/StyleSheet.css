@@ -44,7 +44,7 @@ color: rgb(131, 89, 160);
     filter: grayscale(80%);
     filter: hue-rotate(160%);
     filter: saturate(200%);
-    filter:sepia(70%);
+    filter:sepia(100%);
     filter: brightness(70%)
   }
   .imgalign{
