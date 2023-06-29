@@ -12,6 +12,7 @@ import AboutMe from "./components/aboutme/AboutMe";
 import "./components/StyleSheet.css";
 import QRModal from "./components/qrCodemodals/QRModal";
 import Visual from "./components/christmasgames/mittsanddice/VirtualRep";
+import HomeMobile from "./components/qrCodemodals/HomeMobile";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <SiteNav />
           <Routes>
             <Route path="/" element={<Home />}></Route>
+
+            <Route path="/two" element={<HomeMobile />}></Route>
             <Route path="/aboutme" element={<AboutMe />}></Route>
             <Route path="/mittsanddice" element={<MittsAndDice />}></Route>
             <Route

@@ -15,9 +15,9 @@ function Home() {
 
   return (
     <>
-      <div className="row">
+      <div className="column horizontalplane">
         <div
-          className="coll bg-success horizontalplane"
+          className="coll bg-success "
           style={{
             backgroundImage: `url(${bgZero})`,
             backgroundPosition: "center",
@@ -25,7 +25,7 @@ function Home() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          {/* <div>hello world </div> */}
+          <div>hello world </div>
         </div>
         <div
           className="bg-primary coll"
@@ -36,7 +36,7 @@ function Home() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          {/* <div>hello world </div> */}
+          <div>hello world </div>
         </div>
         <div
           className="bg-info coll"
@@ -47,7 +47,7 @@ function Home() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          {/* <div>hello world </div> */}
+          <div>hello world </div>
         </div>
         <div
           className="bg-danger coll"
@@ -58,7 +58,7 @@ function Home() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          {/* <div>hello world </div> */}
+          <div>hello world </div>
         </div>
         <div
           className="bg-warning coll"
@@ -69,7 +69,7 @@ function Home() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          {/* <div>hello world </div> */}
+          <div>hello world </div>
         </div>
       </div>
     </>

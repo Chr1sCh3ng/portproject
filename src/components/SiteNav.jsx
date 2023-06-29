@@ -58,12 +58,12 @@ function SiteNav() {
                   <a className="dropdown-item" href="/whiteelephanttwist">
                     White Elephant with a twist
                   </a>
-                  <a className="dropdown-item" href="/qrcode">
+                  {/* <a className="dropdown-item" href="/qrcode">
                     QRModal
                   </a>
                   <a className="dropdown-item" href="/VisualRep">
                     Visual
-                  </a>
+                  </a> */}
                 </div>
               </li>
             </ul>

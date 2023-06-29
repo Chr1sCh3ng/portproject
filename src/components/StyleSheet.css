@@ -60,7 +60,6 @@ color: rgb(131, 89, 160);
     transition: 1.5s ease-out;
 }
 
-
   .coll:hover{
     flex: 8 0;
   }
@@ -114,3 +113,17 @@ color: rgb(131, 89, 160);
   color: black;
 }
 
+/* about me  */
+
+.aboutme-pic{
+  /* min-height: auto;
+  min-width: none; */
+  max-height: 40rem;
+  max-width: fit-content;
+}
+
+
+/* 
+under construction picture
+https://i.imgur.com/zwaEM8V.jpeg
+ */

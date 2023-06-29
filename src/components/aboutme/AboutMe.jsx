@@ -1,17 +1,39 @@
 import React from "react";
 
 const AboutMe = () => {
+  const portraitOne = "https://i.imgur.com/Syn4rjN.jpeg";
+  const portraitTwo = "https://i.imgur.com/Nso9erO.jpeg";
+  const portraitThree = "https://i.imgur.com/rQuluR4.jpeg";
+
   return (
     <>
       <div className="container">
-        <h1 className="gradient-text-right p-2"> About Chris Cheng</h1>
+        <h1 className="gradient-text-right p-2"> About Me</h1>
+        <div className="text-white">
+          Hi, I'm Chris Cheng, a full stack developer with a passion for
+          crafting dynamic and engaging web experiences. With a background in
+          web development that started with a basic HTML course during my school
+          days, I quickly found myself immersed in the world of customization,
+          exploring the possibilities of platforms like MySpace to personalize
+          my profile page. In 2020, I took the leap to dive deeper into web
+          development. Motivated by conversations with my brother and friends, I
+          sensed a calling to join the industry. At that time, my life-work
+          balance was lacking, leaving me with little time for personal
+          pursuits. Recognizing the need for change, I sought out free classes
+          and turned to YouTube tutorials to expand my knowledge and skill set.
+          The transition into web development was fueled by my desire to amplify
+          my impact and reach. While I experienced great satisfaction in my
+          previous work, I yearned for a field where I could leverage my
+          abilities to a greater extent. As a full stack developer, I strive to
+          create meaningful and innovative digital solutions that enhance user
+          experiences and deliver tangible value. Join me on this exciting
+          journey as we build the future of the web together. Let's transform
+          ideas into reality and make a lasting impression in the ever-evolving
+          world of technology.
+        </div>
         <div className="row p-5">
           <div className="col">
-            <img
-              src="https://images.dog.ceo/breeds/clumber/n02101556_8243.jpg"
-              className="imghome"
-              alt="logo"
-            />
+            <img src={portraitOne} className="aboutme-pic" alt="logo" />
           </div>
           <div className="col">
             <h3 className="text-white"> Career</h3>
@@ -59,20 +81,12 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="col ">
-            <img
-              src="https://images.dog.ceo/breeds/terrier-westhighland/n02098286_3462.jpg"
-              // className="App-logo"
-              alt="logo"
-            />
+            <img src={portraitTwo} className="aboutme-pic" alt="logo" />
           </div>
         </div>
         <div className="row p-5">
           <div className="col">
-            <img
-              src="https://images.dog.ceo/breeds/terrier-tibetan/n02097474_85.jpg"
-              // className="App-logo"
-              alt="logo"
-            />
+            <img src={portraitThree} className="aboutme-pic" alt="logo" />
           </div>
           <div className="col">
             <h3 className="text-white"> Interests </h3>

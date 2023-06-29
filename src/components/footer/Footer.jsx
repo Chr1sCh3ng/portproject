@@ -1,4 +1,5 @@
 import React from "react";
+import QRModal from "../qrCodemodals/QRModal";
 
 function Footer() {
   return (
@@ -6,7 +7,11 @@ function Footer() {
       <div className="divider p-1 "></div>
       <div>
         <footer className="container  ">
-          <p className="text-white">&copy; This is the footer </p>
+          <p className="text-white">
+            &copy;
+            <QRModal />
+            <h5>Christopher Cheng</h5>
+          </p>
         </footer>
       </div>
     </>
