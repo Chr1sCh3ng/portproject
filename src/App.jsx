@@ -13,6 +13,8 @@ import "./components/StyleSheet.css";
 import QRModal from "./components/qrCodemodals/QRModal";
 import Visual from "./components/christmasgames/mittsanddice/VirtualRep";
 import HomeMobile from "./components/qrCodemodals/HomeMobile";
+import Megacap from "./components/projects/Megacap";
+import MegacapsOrderReview from "./components/projects/MegacapsOrderReview";
 
 function App() {
   return (
@@ -33,6 +35,11 @@ function App() {
             <Route path="/qrcode" element={<QRModal />}></Route>
 
             <Route path="/visualrep" element={<Visual />}></Route>
+            <Route path="/megacaps" element={<Megacap />}></Route>
+            <Route
+              path="/mcorderreview"
+              element={<MegacapsOrderReview />}
+            ></Route>
           </Routes>
         </div>
         <Footer></Footer>
